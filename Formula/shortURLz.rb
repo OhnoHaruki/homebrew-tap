@@ -1,5 +1,5 @@
 VERISON="1.0.0"
-class shortURLz < Formula
+class ShortURLz < Formula
     desc "URL shortner via bit.ly, etc."
     homepage "https://ohnoharuki.github.io/shortURLz"
     url "https://github.com/OhnoHaruki/shortURLz/releases/download/v#{VERSION}/shortURLz-#{VERSION}_darwin_amd64.tar.gz"
