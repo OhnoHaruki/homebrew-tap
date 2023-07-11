@@ -4,7 +4,7 @@ class ShortURLz < Formula
     homepage "https://ohnoharuki.github.io/shortURLz"
     url "https://github.com/OhnoHaruki/shortURLz/releases/download/v#{VERSION}/shortURLz-#{VERSION}_darwin_amd64.tar.gz"
     version VERSION
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "f13d9611ce4160209f33c2ee493040c13a9241ff06d5ae9398ac95aa6a5812d1"
     license "MIT"
     option "without-completion@2" => :optional
     def install
