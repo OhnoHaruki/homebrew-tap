@@ -1,4 +1,5 @@
-VERISON="0.1.11"
+VERSION="0.1.11"
+
 class Shorturlz < Formula
     desc "URL shortner via bit.ly, etc."
     homepage "https://ohnoharuki.github.io/shortURLz"
