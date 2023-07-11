@@ -6,7 +6,8 @@ class ShortURLz < Formula
     version VERSION
     sha256 "f13d9611ce4160209f33c2ee493040c13a9241ff06d5ae9398ac95aa6a5812d1"
     license "MIT"
-    option "without-completion@2" => :optional
+    option "without-completions", "Disable bash completions"
+    depends_on "without-completion@2" => :optional
     def install
         bin.install"shortURLz"
         bash_completion.install "completions/bash/shortURLz" if build.with? "completions"
