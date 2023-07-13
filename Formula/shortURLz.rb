@@ -11,7 +11,7 @@ class Shorturlz < Formula
 #    depends_on "without-completion@2" => :optional
     def install
         bin.install "shortURLz"
-#        bash_completion.install "completions/bash/shortURLz" if build.with? "completions"
+        bash_completion.install "completions/bash/shortURLz" if build.with? "completions"
     end
     test do
         system bin/"shortURLz","--version"
