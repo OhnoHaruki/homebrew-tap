@@ -5,7 +5,7 @@ class Shorturlz < Formula
     homepage "https://ohnoharuki.github.io/shortURLz"
     url "https://github.com/OhnoHaruki/shortURLz/releases/tag/v#{VERSION}/shortURLz-#{VERSION}_darwin-amd64.tar.gz"
     version VERSION
-    sha256 "0237f96f7347554123a977d7c0fd032797f221cc1b9cb566770d85927f28f1b5"
+    sha256 "34122730847a2dbd7683352efcab5981c730d6506fe4d0009e1048c20bb17e56"
     license "MIT"
 #    option "without-completions", "Disable bash completions"
 #    depends_on "without-completion@2" => :optional
